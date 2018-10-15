@@ -17,5 +17,6 @@ namespace SimpleAuth.Domain
         public string Account { get; set; }
 
         public string PasswordHash { get; set; }
+        public ICollection<UserGroup> Groups { get; set; }
     }
 }
